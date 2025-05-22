@@ -1,4 +1,4 @@
-FROM golang:1 AS builder
+FROM golang:1.22.3-bookworm AS builder
 
 COPY . /src
 COPY static /target/static
